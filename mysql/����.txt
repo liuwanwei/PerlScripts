@@ -1,0 +1,2 @@
+1, firewall must be configured to let 3306/tcp go.
+2, mysql's default users, such as "root" was only allowd to access db locally.

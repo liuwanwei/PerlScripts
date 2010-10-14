@@ -1,0 +1,7 @@
+1,write
+不能用write直接写数据到文件，print也不行，syswrite可以。
+
+2，open
+open $fh, ">", $filename;成功
+open $fh, ">$filename";失败
+不过单写后一个函数在test.pl中，成功，奇怪。
